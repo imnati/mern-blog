@@ -11,7 +11,7 @@ export default function Projects() {
           <a href="https://github.com/imnati" target="_blank">
             My Github account
           </a>
-        </span>{" "}
+        </span>
         and Telegram account
         <span className="text-teal-500 text-lg hover:underline p-2">
           <a href="https://t.me/imnati" target="_blank">
