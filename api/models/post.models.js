@@ -18,7 +18,7 @@ const postSchema = new mongoose.Schema(
     image: {
       type: String,
       default:
-        "https://www.blogtyrant.com/wp-content/uploads/2019/07/draft-a-post.jpg",
+        "https://i.ibb.co/zhD0zjS/Get-my-art-printed-on-awesome-products-Support-me-1.jpg",
     },
     category: {
       type: String,

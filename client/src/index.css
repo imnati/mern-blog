@@ -4,6 +4,8 @@
 
 body {
   height: 100vh;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
 }
 
 .ql-editor {

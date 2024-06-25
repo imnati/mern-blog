@@ -130,14 +130,19 @@ export default function Search() {
               id="category"
             >
               <option value="uncategorized">Uncategorized</option>
-              <option value="Category 1">Category 1</option>
-              <option value="Category 2">Category 2</option>
-              <option value="Category 3">Category 3</option>
+              <option value="Category 1">ትምህርተ ሃይማኖት</option>
+              <option value="Category 2">የቤተ ክርስትያን ታሪክ</option>
+              <option value="Category 3">ልዩ ልዩ</option>
             </Select>
           </div>
           <Button type="submit" outline gradientDuoTone="purpleToBlue">
             Apply Filters
           </Button>
+          <div className="text-gray-500 text-sm">
+            <p>Category 1 = ትምህርተ ሃይማኖት</p>
+            <p>Category 2 = የቤተ ክርስትያን ታሪክ</p>
+            <p>Category 3 = ልዩ ልዩ</p>
+          </div>
         </form>
       </div>
       <div className="w-full">

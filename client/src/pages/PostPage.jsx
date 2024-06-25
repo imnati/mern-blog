@@ -69,11 +69,14 @@ export default function PostPage() {
           {post && post.category}
         </Button>
       </Link>
-      <img
-        src={post && post.image}
-        alt={post && post.title}
-        className="mt-10 p-3 max-h-[600px] w-full object-cover"
-      />
+      <a href={post && post.image}>
+        <img
+          src={post && post.image}
+          alt={post && post.title}
+          className="mt-10 p-3 max-h-[600px] w-full object-cover"
+        />
+      </a>
+
       <div className="flex justify-between p-3 border-b border-slate-500 mx-auto w-full max-w-2xl text-xs">
         <span>{post && new Date(post.createdAt).toLocaleDateString()}</span>
         <span className="italic">

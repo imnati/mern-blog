@@ -102,9 +102,9 @@ export default function CreatePost() {
             }
           >
             <option value="uncategorized">Select a category</option>
-            <option value="Category 1">Category 1</option>
-            <option value="Category 2">Category 2</option>
-            <option value="Category 3">Category 3</option>
+            <option value="Category 1">ትምህርተ ሃይማኖት</option>
+            <option value="Category 2">የቤተ ክርስትያን ታሪክ</option>
+            <option value="Category 3">ልዩ ልዩ</option>
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">

@@ -17,9 +17,19 @@ export default function Home() {
   return (
     <div>
       <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold lg:text-6xl">Welcome to my blog</h1>
-        <p className="text-gray-500 text-xs sm:text-sm">
-          Here you will find a variety of aritcles....
+        <h1 className="text-3xl font-bold lg:text-6xl">
+          Welcome to my blog, Daily Orthodoxy
+        </h1>
+        <p className="text-gray-600 text-lg sm:text-lg">
+          በስመ አብ ወወልድ ወመንፈስ ቅዱስ አሃዱ አምላክ አሜን። በዚህ ገጽ የኢትዮጵያ ኦርቶዶክስ ተዋህዶን አስተምህሮ
+          የሚከተሉ መንፈሳዊ ጽሁፎችን ከተለያዩ መጻህፍት፣ እና ድህረ ገጾች በማጣቀስ የሚቀርብበት ነው። ይህ የሙከራ
+          ድህረ-ገጽ ነው። In this blog I will try to post a variety of aritcles about
+          the Ethiopian Orthodox Tewahido Religion Church. This is a demo
+          project.
+          <br />
+          <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 rounded-lg text-white">
+            The goal is to rise spritually, not simply to avoid sin.
+          </span>
         </p>
         <Link
           to="/search"
